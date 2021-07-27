@@ -2,3 +2,19 @@
 .slide{
     background-color: #feeae9;
 }
+
+/* media quary */
+@media (max-width:768px) {
+    .col-lg-7{
+    text-align: center;
+    }
+    .col-lg-5{
+        margin-top: 3em;
+    }
+    .heading{
+        background-color: green;
+        color: white !important;
+        padding: 2rem;
+        border-radius: 2em;
+    }
+}
